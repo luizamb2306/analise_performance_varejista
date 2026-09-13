@@ -155,7 +155,8 @@ analise_performance_varejista/
 │
 ├── shipping_dim_BI.csv               # Base tratada para o Power BI
 └── shipping_dim_Base_Bruta.csv       # Base bruta da tabela shipping_dim
-
+```
+---
 
 # Como reproduzir a análise
 
