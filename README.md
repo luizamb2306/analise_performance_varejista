@@ -123,9 +123,7 @@ A utilização de medidas de posição, como **mediana e percentis**, permite ev
 
 Os resultados da segunda etapa foram consolidados em um **dashboard interativo no Power BI**, permitindo explorar a performance por diferentes dimensões.
 
----
-
-# Tecnologias
+### Tecnologias utilizadas
 
 * **Power BI**
 * **DAX**
@@ -157,9 +155,7 @@ analise_performance_varejista/
 │
 ├── shipping_dim_BI.csv               # Base tratada para o Power BI
 └── shipping_dim_Base_Bruta.csv       # Base bruta da tabela shipping_dim
-```
 
----
 
 # Como reproduzir a análise
 
@@ -175,6 +171,7 @@ Para reproduzir essa etapa, é necessário utilizar um ambiente **PostgreSQL** e
 * `orders_dim_Base_Bruta.csv`
 * `prod_dim_Base_Bruta.csv`
 * `shipping_dim_Base_Bruta.csv`
+
 ---
 
 ## Python — Análise Exploratória
@@ -192,4 +189,18 @@ O notebook utiliza a base preparada na etapa de tratamento e realiza as análise
 A etapa de análise de performance foi desenvolvida no **Power BI**, utilizando as bases tratadas e as métricas definidas ao longo das etapas anteriores.
 
 As métricas e análises foram estruturadas em **DAX**, permitindo análises agregadas, comparações temporais e avaliação relativa dos desempenhos.
-entendimento-dos-dados-%C3%A0-an%C3%A1lise-explorat%C3%B3ria-34f097d1632e?postPublishedType=repub)
+
+O dashboard desenvolvido está disponível no arquivo `Performance.pbix` e pode ser aberto localmente utilizando o **Power BI Desktop**.
+
+
+
+
+
+
+
+
+
+
+
+
+
